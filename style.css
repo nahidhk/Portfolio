@@ -9,6 +9,11 @@ background-image: url("nahid.png");
 
 }
 
+.blur{
+  backdrop-filter: blur(10px);
+  background-color: #00000028;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -334,8 +339,9 @@ a {
 .stylex {
   width: 90%;
   height: 500px;
-  background-color: #fcf8fc15;
+  background-color: #0000009d;
   border-radius: 10px;
+  
 
 }
 
