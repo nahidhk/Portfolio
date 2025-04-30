@@ -5,6 +5,7 @@ body {
   font-family: "Space Grotesk", sans-serif;
   background-color: #212121;
   height: auto;
+background-image: url("nahid.png");
 
 }
 
@@ -40,7 +41,7 @@ html {
   color: azure;
   height: 100vh;
   width: 100%;
-  background-image: url("img/bg.svg");
+  /* background-image: url("img/bg.svg"); */
   background-size: cover;
 }
 
@@ -184,7 +185,7 @@ button {
 .fine {
   height: 200px;
   width: 100%;
-  background-image: url("svg/style.png");
+  /* background-image: url("svg/style.png"); */
   background-repeat: no-repeat;
   background-size: cover;
   filter: blur(30px);
