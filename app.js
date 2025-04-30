@@ -145,3 +145,7 @@ if ('serviceWorker' in navigator) {
     });
   });
 }
+
+function upwork(){
+  window.open("https://www.upwork.com/freelancers/~016cbbb68ceda756fb", "_blank");
+}

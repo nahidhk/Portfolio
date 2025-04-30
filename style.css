@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
 body {
   margin: 0;
-  font-family: "Reddit Mono", monospace;
-  background-color: #0a0a0a;
+  font-family: "Space Grotesk", sans-serif;
+  background-color: #212121;
+  height: auto;
+
 }
 
 html {
@@ -84,6 +88,11 @@ html {
   font-size: 15pt;
   border-radius: 4px;
   transition: all 0.7s;
+  text-transform: uppercase;
+}
+
+button {
+  font-family: "Space Grotesk", sans-serif;
 }
 
 .cv-btn:hover {
@@ -183,22 +192,9 @@ html {
 
 
 
-.hope {
-  height: auto;
-}
-
-.abtitle {
-  font-size: 40px;
-  background: -webkit-linear-gradient(to right, #00ffaa, #80ff00);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #00ffaa, #80ff00);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-}
 
 .underline {
+  font-size: 2rem;
   text-align: center;
   border-bottom: 2px solid transparent;
   border-image: linear-gradient(0.25turn, rgba(255, 249, 34), rgba(255, 0, 128), rgba(56, 2, 155, 0));
@@ -207,102 +203,8 @@ html {
   width: 200px;
 }
 
-.cp {
-  display: flex;
-  justify-content: center;
-}
-
-.card {
-  padding: 9px;
-  background-color: #4278B9A1;
-  width: 700px;
-  height: auto;
-  border-radius: 7px;
-  box-shadow: rgba(75, 93, 50, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-  display: flex;
-}
-
-.boxno1 {
-  height: 320px;
-  width: 50%;
-}
-
-.boxno1 img {
-  height: 320px;
-  width: 320px;
-}
-
-.boxno2 {
-  height: 300px;
-  width: 50%;
-}
-
-.skillbtn {
-  border-bottom: 1px solid #A7A7A7;
-  height: 40px;
-  width: 100%;
-}
-
-.btn {
-  border-bottom: 1px solid #4278B900;
-  border-top: 1px solid #A7A7A7;
-  border-left: 1px solid #A7A7A7;
-  border-right: 1px solid #A7A7A7;
-  background-color: #4278B900;
-  height: 40px;
-  width: 100px;
-  color: #FFFFFF;
-  border-top-left-radius: 7px;
-  border-top-right-radius: 7px;
-
-}
-
-.skillboxx {
-  width: 600px;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.skill {
-  height: 120px;
-  width: 100px;
-  background-color: #1b1b1b;
-  border-radius: 5px;
-  transition: all 0.4s;
-  margin: 5px;
-
-}
-
-.skill:hover {
-  box-shadow: rgb(0, 0, 255) 0px 50px 100px -20px, rgb(234, 0, 255) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-}
-
-.imgicon {
-  height: 60px;
-}
-
-button {
-  font-family: "Reddit Mono", monospace;
-}
-
-.actives {
-  background-color: #fff;
-  color: #000;
-}
-
 .vcc {
   display: none;
-}
-
-.clr {
-  background-color: #4680ff;
-}
-
-.contact {
-  height: auto;
-  width: 600px;
-
 }
 
 .rotein {
@@ -371,45 +273,71 @@ n {
   border-radius: 100px;
   cursor: pointer;
 }
-.navbtn{
+
+.navbtn {
   height: 35px;
   width: 100px;
-background-color: #00000000;
-border: 1px solid #ffffff00;
-color: #fff;
-border-radius: 4px;
-box-shadow: 0 0 100px 0  #ffffff;
-transition: all 0.6s;
+  background-color: #00000000;
+  border: 1px solid #ffffff00;
+  color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 0 100px 0 #ffffff;
+  transition: all 0.6s;
 
 }
-.navbtn:hover{
+
+.navbtn:hover {
   border-radius: 100px;
   background-color: #fff;
   color: #000;
   box-shadow: 0 0 1px 0 #fff;
   cursor: pointer;
 }
-.foter{
+
+.foter {
   height: 40vh;
   width: 100%;
   padding: 50px;
 }
-.fotericon i{
+
+.fotericon i {
   font-size: 23px;
   transition: all 0.5s;
   box-shadow: 0 0 100px 0 #fff;
   color: #ffffffa7;
 }
 
-.fotericon i:hover{
+.fotericon i:hover {
   color: #ffffff;
   cursor: pointer;
   box-shadow: 0 0 1px 0 #fff;
 }
-a{
+
+a {
   outline: none;
   text-decoration: none;
 }
+
+.flex {
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+}
+
+.around {
+  justify-content: space-around;
+}
+
+.stylex {
+  width: 90%;
+  height: 500px;
+  background-color: #fcf8fc15;
+  border-radius: 10px;
+
+}
+
 
 
 
@@ -436,21 +364,7 @@ a{
     display: none;
   }
 
-  .menuicon {
-    font-size: 33px;
-    color: #c9c9c9;
-    position: absolute;
-    right: 10px;
-    top: 13px;
-    transition: all 0.9s;
-    height: 50px;
-    width: 50px;
-  }
 
-  .menuicon:hover {
-    background-color: #4680ff;
-    border-radius: 100px;
-  }
 }
 
 
@@ -535,25 +449,27 @@ a{
     background-color: #4680ff;
     border-radius: 100px;
   }
- 
- .navbtn{
-  margin: 10px;
-  width: 90%;
-  border-bottom: 1px solid #636363;
-  box-shadow: 0 0 1px 0 ;
- }
- .menubr{
-  padding-top: 90px;
-  display: block;
-  width: 100%;
- height: 100vh;
- position: fixed;
- background-color: #000000fc;
- top: 0;
- left: 0;
- }
- .vccm{
-  display: none;
- }
- 
+
+  .navbtn {
+    margin: 10px;
+    width: 90%;
+    border-bottom: 1px solid #636363;
+    box-shadow: 0 0 1px 0;
+  }
+
+  .menubr {
+    padding-top: 90px;
+    display: block;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: #000000fc;
+    top: 0;
+    left: 0;
+  }
+
+  .vccm {
+    display: none;
+  }
+
 }
