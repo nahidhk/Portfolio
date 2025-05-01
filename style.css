@@ -5,7 +5,11 @@ body {
   font-family: "Space Grotesk", sans-serif;
   background-color: #212121;
   height: auto;
-/*background-image: url("nahid.png");*/
+background-image: url("nahid.png");
+background-size: cover;
+background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 
 }
 
@@ -18,6 +22,15 @@ html {
   scroll-behavior: smooth;
 }
 
+.auto {
+  margin: 0 auto;
+  height: auto;
+  width: auto;
+}
+.padding{
+  padding: 10px;
+  border-radius: 10px;
+}
 
 .nav {
   z-index: 100;
@@ -44,10 +57,9 @@ html {
 
 .main {
   color: azure;
-  height: 100vh;
-  width: 100%;
-  /* background-image: url("img/bg.svg"); */
-  background-size: cover;
+  height: auto;
+  width: auto;
+  text-align: center;
 }
 
 .logo-box {
@@ -222,10 +234,6 @@ button {
   flex-wrap: wrap;
 }
 
-.less-cont {
-  width: 100%;
-
-}
 
 label {
   text-align: left;
@@ -348,7 +356,9 @@ a {
   
 
 }
-
+.test{
+  background-color: red;
+}
 
 
 
