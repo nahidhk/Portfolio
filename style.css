@@ -80,14 +80,18 @@ html {
   color: rgb(207, 25, 25);
 }
 
-.othertx {
-  color: rgb(97, 97, 97);
-  padding-top: 50px;
+.w90{
+  width: 90%;
+}
+.otn{
+  opacity: 0.3;
 }
 
 .cv-btn {
   height: 45px;
-  width: 220px;
+  width: auto;
+  padding-left: 10px;
+  padding-right: 10px;
   background-color: #4681ff00;
   color: #4680ff;
   border: 1px solid #4680ff;
