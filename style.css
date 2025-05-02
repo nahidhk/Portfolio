@@ -5,17 +5,20 @@ body {
   font-family: "Space Grotesk", sans-serif;
   background-color: #212121;
   height: auto;
-background-image: url("nahid.png");
-background-size: cover;
-background-repeat: no-repeat;
+  background-image: url("nahid.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  background-clip: border-box;
 
 }
-
-.blur{
+.text-center {
+  text-align: center;
+}
+.blur {
   backdrop-filter: blur(10px);
-  background-color: #00000028;
+  background-color: #0000006d;
 }
 
 html {
@@ -27,7 +30,8 @@ html {
   height: auto;
   width: auto;
 }
-.padding{
+
+.padding {
   padding: 10px;
   border-radius: 10px;
 }
@@ -92,10 +96,14 @@ html {
   color: rgb(207, 25, 25);
 }
 
-.w90{
+.w90 {
   width: 90%;
 }
-.otn{
+.feet{
+  height: 100%;
+  width: 100%;
+}
+.otn {
   opacity: 0.3;
 }
 
@@ -211,10 +219,9 @@ button {
   background-size: cover;
   filter: blur(30px);
 }
-
-
-
-
+.margin-bottom {
+  margin-bottom: 20px;
+}
 .underline {
   font-size: 2rem;
   text-align: center;
@@ -222,9 +229,15 @@ button {
   border-image: linear-gradient(0.25turn, rgba(255, 249, 34), rgba(255, 0, 128), rgba(56, 2, 155, 0));
   border-image-slice: 1;
   width: 100%;
-  width: 200px;
+  width: auto;
+  color: #fff;
 }
-
+.beet{
+  justify-content: space-between;
+}
+.fff{
+  color: #fff;
+}
 .vcc {
   display: none;
 }
@@ -313,7 +326,7 @@ n {
 }
 
 .foter {
-  height: 40vh;
+  height: auto;
   width: 100%;
   padding: 50px;
 }
@@ -353,10 +366,11 @@ a {
   height: 500px;
   background-color: #0000009d;
   border-radius: 10px;
-  
+
 
 }
-.test{
+
+.test {
   background-color: red;
 }
 
