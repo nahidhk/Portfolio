@@ -373,9 +373,17 @@ a {
 .test {
   background-color: red;
 }
+.h200{
+  width: 200px;
+}
 
 
-
+.wrap{
+  flex-wrap: wrap;
+}
+.wwrap{
+  align-items: stretch;
+}
 
 
 
@@ -402,7 +410,9 @@ a {
 
 }
 
-
+.reflex{
+  display: flex;
+  }
 
 /* On screens that are 600px wide or less, the background color is olive */
 @media screen and (max-width: 600px) {
@@ -411,7 +421,9 @@ a {
     text-align: center;
 
   }
-
+.reflex{
+display: block;
+}
   .cursorx {
     font-size: 25px;
   }
