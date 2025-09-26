@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1f1f1f;
+    color: #fff;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+.flex{
+    display: flex;
+}
+.block{
+    display: block;
+}
+.around{
+    justify-content: space-around;
+}
+.center{
+    justify-content: center;
+}
+.nav{
+    height: auto;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #353535;
+    padding: 8px;
+}
