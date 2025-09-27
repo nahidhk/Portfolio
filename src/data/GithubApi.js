@@ -1,17 +1,9 @@
-// src/data/GithubApi.js
-import githubData from "./github_username.json";
 
-async function githubApi() {
-  const apiurl = githubData.urlToken + githubData.username;
-
-  try {
-    const response = await fetch(apiurl);
-    const data = await response.json();
-    return data; // এখানে JSON ডেটা return হবে
-  } catch (error) {
-    console.error("Error fetching GitHub data:", error);
-    return null;
-  }
+function githubApi() {
+  const githuburl = "https://api.github.com/users/nahidhk";
+  return fetch(githuburl)
+    .then(response => response.json())
+    .catch(error => console.error("Error fetching GitHub data:", error));
 }
 
-export default githubApi;
+export default githubApi; 
